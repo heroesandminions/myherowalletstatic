@@ -1762,3 +1762,48 @@ footer {
   margin-right: 30px !important;
   border-radius: 50% !important;
 }
+
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+.navtableswitch .btn {
+  background: radial-gradient(
+    circle farthest-corner at 100% 150%,
+    #d75dbc 10%,
+    #6a4bc4 50%
+  );
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.navtableswitch .activetablebutton {
+  background: #fff !important;
+  color: #6a4bc4 !important;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+  border: 1px solid #6a4bc4 !important;
+}
+.navtableswitch i {
+  display: none;
+}
+.dnonetable {
+  display: none !important;
+}
+.navtableswitch {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#tablerow2 .vc_gitem-zone {
+  margin: 6px;
+  border-radius: 20px;
+}
